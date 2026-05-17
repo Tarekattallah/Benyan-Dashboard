@@ -6,8 +6,8 @@ const projectData = {
         profile: "Developers Names",
         columns: ["#", "First Name", "Company", "comp Mail"], 
         users: [
-            { id: 1, firstName: "Mazen", lastName: "IBM", username: "@IBM" },
-            { id: 2, firstName: "Youssef", lastName: "AWS", username: "@AWS" }
+            { id: 1, firstName: "Altarek", lastName: "IBM", username: "@IBM" },
+            { id: 2, firstName: "Altarek", lastName: "AWS", username: "@AWS" }
         ]
     };
     return ( 

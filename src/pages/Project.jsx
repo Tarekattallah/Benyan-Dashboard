@@ -5,8 +5,8 @@ function Project () {
         profile: "Projects Names",
         columns: ["#", "First Name", "Project", "company"], 
         users: [
-            { id: 1, firstName: "Mazen", lastName: "CMS", username: "MazComp" },
-            { id: 2, firstName: "Youssef", lastName: "E-Commerce", username: "YOuCOmp" }
+            { id: 1, firstName: "Altarek", lastName: "CMS", username: "MazComp" },
+            { id: 2, firstName: "Altarek", lastName: "E-Commerce", username: "YOuCOmp" }
         ]
     };
     return (
