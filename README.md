@@ -1,0 +1,57 @@
+# Benyan Dashboard
+
+A React dashboard application built with Vite, React Router, and Bootstrap.
+
+## 🚀 Tech Stack
+
+- **React 19**
+- **React Router DOM v7**
+- **Bootstrap 5**
+- **Vite**
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Dashborad/
+│   │   ├── Navbar/
+│   │   ├── Sidebar/
+│   │   ├── Footer/
+│   │   └── Status/
+│   └── ui/
+│       ├── CardStatus/
+│       ├── TableDashboard/
+│       └── FormDashboard/
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Users.jsx
+│   ├── Developers.jsx
+│   ├── Project.jsx
+│   └── StatusPage.jsx
+└── main.jsx
+```
+
+## ✨ Features
+
+- **Users Management** — view and add users via a reusable table and form
+- **Developers Management** — same logic reused for developers
+- **Projects Management** — same logic reused for projects
+- **Status Page** — overview cards with dynamic icons
+- **Reusable Components** — `TableDashboard` and `FormDashboard` accept props to work across all sections
+
+## ⚙️ Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+## 📦 Build
+
+```bash
+npm run build
+```
